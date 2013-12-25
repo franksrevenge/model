@@ -772,7 +772,7 @@ can define `database` (MySQL, Postgres) and `schema` (Postgres) properties:
 
 ```javascript
 var User = function () {
-  this.database = 'mydatabase';
+  this.db = 'mydatabase';
   this.schema = 'myschema';
 
 ...

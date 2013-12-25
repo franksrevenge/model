@@ -765,6 +765,20 @@ if (!someTeam.players) {
 }
 ```
 
+### Database names and schemas (SQL adapters only)
+
+To determine to which database and/or schema a model is referring, the model
+can define `database` (MySQL, Postgres) and `schema` (Postgres) properties: 
+
+```javascript
+var User = function () {
+  this.database = 'mydatabase';
+  this.schema = 'myschema';
+
+...
+```
+
+
 - - -
 Model JavaScript ORM copyright 2112 mde@fleegix.org.
 

@@ -778,7 +778,6 @@ var User = function () {
 ...
 ```
 
-
 - - -
 Model JavaScript ORM copyright 2112 mde@fleegix.org.
 

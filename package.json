@@ -17,7 +17,7 @@
     "leveldb",
     "sqlite"
   ],
-  "version": "0.4.13",
+  "version": "0.4.9002",
   "author": "Matthew Eernisse <mde@fleegix.org> (http://fleegix.org)",
   "main": "./lib/index.js",
   "scripts": {
@@ -28,7 +28,7 @@
     "url": "git://github.com/mde/model.git"
   },
   "dependencies": {
-    "utilities": "0.0.x"
+    "utilities": "0.0.34"
   },
   "devDependencies": {
     "jake": "0.7.x",
